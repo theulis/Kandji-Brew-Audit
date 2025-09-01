@@ -7,7 +7,7 @@ Brew-Packages-Audit.sh
 ```
 
 This script is a simple Homebrew package auditor that checks if Homebrew is installed on your Mac and then lists all your installed Homebrew packages along with their version numbers in a clean CSV format. It takes the output from `brew list --versions` and reformats each package entry to show just the package name and its version separated by a comma, making it easy to see what software you have installed and what versions they're running. The output looks like "git,2.43.0"  with each package on its own line, which is perfect for importing into spreadsheets or other tools that need a structured list of your system's software inventory
-`This script will be added in Kandji as a Custom Script Library Item
+`This script will be added in Kandji as a Custom Script Library Item`
 
 ## Export Brew Packages 
 
