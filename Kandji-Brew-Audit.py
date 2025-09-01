@@ -6,7 +6,7 @@ kandji_api_token = os.environ.get("kandji_api_token")
 kandji_domain=os.environ.get("kandji_domain")
 authorisation_value = str('Bearer ') + kandji_api_token
 
-### Brew Audit Library Item ID is: b5d21f9e-9d41-4463-b2b5-c292b3c2ccad
+### In this example the HomeBrew Audit Library Item ID is: b5d21f9e-9d41-4463-b2b5-c292b3c2ccad
 ### You can get from the full URL in Kandji : https://domain.kandji.io/library/custom-scripts/b5d21f9e-9d41-4463-b2b5-c292b3c2ccad/status
 
 url = "https://"+kandji_domain+".api.kandji.io/api/v1/library/library-items/b5d21f9e-9d41-4463-b2b5-c292b3c2ccad/status"
